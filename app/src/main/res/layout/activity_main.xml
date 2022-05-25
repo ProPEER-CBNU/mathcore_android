@@ -13,4 +13,17 @@
         android:text="Mathcore"
         android:layout_gravity="center"/>
 
+    <Button
+        android:id="@+id/goto_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogIn"
+        />
+    <Button
+        android:id="@+id/goto_register_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="register"
+        />
+
 </LinearLayout>
