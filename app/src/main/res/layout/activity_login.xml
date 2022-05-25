@@ -43,10 +43,10 @@
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_marginBottom="41dp"
-        android:tint="@color/colorAccent"
         app:layout_constraintBottom_toTopOf="@+id/login_email"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="@color/colorAccent" />
 
 
     <Button
