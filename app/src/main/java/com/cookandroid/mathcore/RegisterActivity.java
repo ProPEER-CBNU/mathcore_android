@@ -39,6 +39,7 @@ public class RegisterActivity extends AppCompatActivity {
         //아이디 중복 체크
         check_button = findViewById(R.id.check_button);
         check_button.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 String UserEmail = join_email.getText().toString();
