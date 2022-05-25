@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent myIntent = new Intent(MainActivity.this, LoginActivity.class);
                 //go to login
                 startActivity(myIntent);
-                finish();
                 //finish mainactivity
             }
         });
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent myIntent = new Intent(MainActivity.this, RegisterActivity.class);
                 //go to regist
                 startActivity(myIntent);
-                //finish();
+                finish();
                 //finish mainactivity
             }
         });
