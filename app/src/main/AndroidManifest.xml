@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cookandroid.mathcore">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     //인터넷 권한 부여
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -13,13 +14,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mathcore">
-        <activity
-            android:name=".MainActivity"
+        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".ListActivity"/>
+        <activity android:name=".JoinActivity"/>
+        <activity android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity"></activity>
