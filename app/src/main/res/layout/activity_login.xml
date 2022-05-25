@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="#FFFFFF">
 
     <Button
         android:id="@+id/login_button"
@@ -12,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:text="Sign In"
-        android:background="@color/pink_mc"
+        android:background="@drawable/btn_color_drawable"
         app:layout_constraintBaseline_toBaselineOf="@+id/join_button"
         app:layout_constraintStart_toStartOf="@+id/login_password" />
 
@@ -57,7 +58,7 @@
         android:layout_height="35dp"
         android:layout_marginBottom="190dp"
         android:text="Sign up"
-        android:background="@color/pink_mc"
+        android:background="@drawable/btn_color_drawable"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/login_password" />
 

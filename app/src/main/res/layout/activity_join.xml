@@ -74,7 +74,7 @@
         android:layout_height="35dp"
         android:layout_marginEnd="97dp"
         android:text="Confirm"
-        android:background="@color/pink_mc"
+        android:background="@drawable/btn_color_drawable"
         app:iconTint="@color/black"
         app:layout_constraintBaseline_toBaselineOf="@+id/join_email"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -88,7 +88,7 @@
         android:layout_marginLeft="36dp"
         android:layout_marginTop="71dp"
         android:text="Cancel"
-        android:background="@color/pink_mc"
+        android:background="@drawable/btn_color_drawable"
         app:layout_constraintStart_toEndOf="@+id/join_button"
         app:layout_constraintTop_toBottomOf="@+id/join_pwck" />
 
@@ -100,7 +100,7 @@
         android:layout_marginStart="96dp"
         android:layout_marginLeft="96dp"
         android:text="Sign up"
-        android:background="@color/pink_mc"
+        android:background="@drawable/btn_color_drawable"
         app:layout_constraintBaseline_toBaselineOf="@+id/delete"
         app:layout_constraintStart_toStartOf="parent" />
 
