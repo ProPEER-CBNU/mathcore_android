@@ -21,6 +21,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText login_email, login_password;
     private Button login_button, join_button;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
