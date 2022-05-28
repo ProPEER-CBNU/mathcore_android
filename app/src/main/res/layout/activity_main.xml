@@ -1,36 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity"
     android:background="#FFFFFF">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/main_image"
         android:layout_width="wrap_content"
         android:layout_height="120dp"
-        android:layout_marginBottom="41dp"
+        android:layout_marginBottom="30dp"
         android:src="@drawable/mathcorelogo"
-        app:layout_constraintBottom_toTopOf="@+id/login_email"
+        app:layout_constraintBottom_toTopOf="@+id/main_explain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/main_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="내가 푼 문제들의 \n채점을 한번에"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/sub_explain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/sub_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="직접 스캔하거나 촬영한 이미지들을 \n업로드하기만 하면 채점 결과가 한눈에 보여요!"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/goto_login_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/goto_login_btn"
+        style="@style/defaultButton"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:text="LogIn"
+        android:layout_marginLeft="20dp"
+        android:text="Log in"
         android:background="@drawable/btn_color_drawable"
-        />
+        app:layout_constraintBaseline_toBaselineOf="@+id/goto_register_btn"
+        app:layout_constraintStart_toStartOf="@+id/sub_explain" />
+
     <Button
         android:id="@+id/goto_register_btn"
+        style="@style/defaultButton"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:text="register"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="180dp"
+        android:text="Resister"
         android:background="@drawable/btn_color_drawable"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sub_explain" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
