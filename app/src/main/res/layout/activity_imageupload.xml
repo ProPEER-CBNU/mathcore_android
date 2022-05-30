@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".imageuploadActivity"
+    android:orientation="vertical"
+    android:backgroundTint="#ffffff"
+    android:padding="15dp"
+    >
+
+    <Button
+        android:id="@+id/gallery_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose photo from the Gallery"
+        android:textSize="20dp"
+        android:background="@drawable/btn_color_drawable"/>
+
+    <Button
+        android:id="@+id/camera_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take picture with Camera"
+        android:textSize="20dp"
+        android:background="@drawable/btn_color_drawable"/>
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/select_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose workbook"
+        android:textSize="20dp"
+        android:background="@drawable/btn_color_drawable"/>
+
+
+</LinearLayout>
