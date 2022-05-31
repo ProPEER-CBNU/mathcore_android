@@ -49,7 +49,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                 if (UserEmail.equals("")) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
-                    dialog = builder.setMessage("아이디를 입력하세요.").setPositiveButton("확인", null).create();
+                    dialog = builder.setMessage("이메일을 입력하세요.").setPositiveButton("확인", null).create();
                     dialog.show();
                     return;
                 }
