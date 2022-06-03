@@ -21,11 +21,12 @@ public class MainActivity extends AppCompatActivity {
         goto_login_btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public  void onClick(View v){
+
                 Intent myIntent = new Intent(MainActivity.this, LoginActivity.class);
                 //go to login
                 startActivity(myIntent);
-                finish();
-                //finish mainactivity
+                //finish();
+                //finish main
             }
         });
 
@@ -33,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public  void onClick(View v){
                 Intent myIntent = new Intent(MainActivity.this, RegisterActivity.class);
-                //go to regist
+                //go to reg
                 startActivity(myIntent);
-                finish();
-                //finish mainactivity
+                //finish();
+                //finish main
             }
         });
 
