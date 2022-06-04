@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>cbnu_logo</title>
+	<style>
+		#cbnu circle:nth-child(6){
+			stroke-dasharray:700;
+			animation:spinning 4s infinite ease-in-out;
+			transform-origin:50% 50%;
+		}
+		@keyframes spinning{
+			0% {transform:rotate(0deg);}
+			50% {transform:rotate(360deg);}
+			100% {transform:rotate(0deg);}
+		}
+	</style>
+</head>
+<body>
+	<svg id="cbnu" style="width:800px; height:800px;">
+		<defs>
+			<path id="text-line" d="M 200 200 A 50 50 0 1 1 600 600 A 50 50 0 1 1 200 200z" />
+		</defs>
+		<circle cx="400" cy="400" r="365" fill="none" stroke="#988f8c" stroke-width="10px" />
+		<circle cx="400" cy="400" r="270" fill="#92224e" />
+		<text 
+			x="0%" y="0%" fill="#988f8c" 
+			font-size="72" >
+			<textPath xlink:href="#text-line">
+				충 북 대 학 교 · CHUNGBUK NATIONAL UNIVERSITY · 
+			</textPath>
+		</text>
+		<image 
+			xlink:href="cbnu.png"
+			x="22%"
+			y="22%"
+			width="450"
+			height="450"/>
+		<circle cx="400" cy="400" r="315" fill="none" stroke="#ffffff" stroke-width="90px" />
+	</svg>
+
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect('localhost', 'ftp아이디', 'ftp비밀번호', 'ftp아이디');
+    $con = mysqli_connect("localhost", "mistyc", "l92xfd1!", "mistyc");
 
     $UserEmail = $_POST["UserEmail"];
     $UserPwd = $_POST["UserPwd"];
