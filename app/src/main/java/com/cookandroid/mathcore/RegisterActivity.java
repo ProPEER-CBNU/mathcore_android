@@ -168,4 +168,9 @@ public class RegisterActivity extends AppCompatActivity {
         });
 
     }
+
+    //안드로이드 백버튼 차단
+    @Override public void onBackPressed() {
+        return;
+    }
 }

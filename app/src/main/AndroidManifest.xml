@@ -36,6 +36,11 @@
         <activity android:name=".MainMenuActivity"></activity>
         <activity android:name=".LoginActivity_D"></activity>
         <activity android:name=".selectStudentActivity"></activity>
+
+        <!--팝업Activity-->
+        <activity android:name=".PopupActivity"
+            android:theme="@android:style/Theme.Dialog"/>
+
     </application>
 
 </manifest>

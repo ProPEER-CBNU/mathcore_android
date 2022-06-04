@@ -19,11 +19,11 @@
             android:textSize="25dp" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="104dp"
             android:layout_height="match_parent"
             android:paddingRight="10dp"
             android:paddingBottom="15dp"
-            android:text="가입일자"
+            android:text="학년"
             android:textColor="@color/black"
             android:textSize="25dp" />
 
@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#ff7f00"
-            android:text="22-06-01"
+            android:text="고등 1학년"
             android:textSize="20dp"/>
         <TextView
             android:layout_width="wrap_content"
@@ -65,7 +65,8 @@
             android:id="@+id/button01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="상세정보" />
+            android:text="상세정보"
+            android:onClick="mOnPopupClick01"/>
 
     </TableRow>
 
@@ -87,9 +88,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#ff7f00"
-            android:text="22-06-01"
+            android:text="고등 2학년"
             android:textSize="20dp"/>
         <TextView
+            android:id="@+id/txtResult"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#ff7f00"
@@ -100,7 +102,8 @@
             android:id="@+id/button02"
             android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="상세정보" />
+            android:text="상세정보"
+            android:onClick="mOnPopupClick02" />
 
     </TableRow>
     <TextView
