@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         goto_regist_btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public  void onClick(View v){
-                Intent Intent = new Intent(MainActivity.this, RegisterActivity_D.class);
+                Intent Intent = new Intent(MainActivity.this, RegisterActivity.class);
                 //go to reg
                 startActivity(Intent);
                 //finish();

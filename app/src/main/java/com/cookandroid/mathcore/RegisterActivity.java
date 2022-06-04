@@ -130,7 +130,7 @@ public class RegisterActivity extends AppCompatActivity {
                                     Toast.makeText(getApplicationContext(), String.format("%s님 가입을 환영합니다.", UserName), Toast.LENGTH_SHORT).show();
                                     Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                                     startActivity(intent);
-
+                                    finish();
                                     //회원가입 실패시
                                 } else {
                                     Toast.makeText(getApplicationContext(), "회원가입에 실패하였습니다.", Toast.LENGTH_SHORT).show();
@@ -163,6 +163,7 @@ public class RegisterActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent myIntent = new Intent(RegisterActivity.this, MainActivity.class);
                 startActivity(myIntent);
+                finish();
             }
         });
 
