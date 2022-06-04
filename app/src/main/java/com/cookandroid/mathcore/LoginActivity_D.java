@@ -25,11 +25,12 @@ public class LoginActivity_D extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_d);
+        setContentView(R.layout.activity_login);
 
         login_email = findViewById(R.id.login_email);
         login_password = findViewById(R.id.login_password);
 
+        //cancle로 변경
         join_button = findViewById(R.id.join_button);
         join_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,6 +50,7 @@ public class LoginActivity_D extends AppCompatActivity {
                 Intent intent = new Intent(LoginActivity_D.this, MainMenuActivity.class);
 
                 startActivity(intent);
+                finish();
             }
 
         });
@@ -56,4 +58,9 @@ public class LoginActivity_D extends AppCompatActivity {
 
     }
 
+
+    //안드로이드 백버튼 차단
+    @Override public void onBackPressed() {
+        return;
+    }
 }

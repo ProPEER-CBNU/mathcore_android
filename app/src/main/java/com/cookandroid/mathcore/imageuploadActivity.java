@@ -14,7 +14,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
@@ -33,9 +32,6 @@ public class imageuploadActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_imageupload);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
-
         select_btn=findViewById(R.id.select_btn);
         iv_photo=findViewById(R.id.iv_photo);
         camera_btn=findViewById(R.id.camera_btn);
@@ -50,8 +46,8 @@ public class imageuploadActivity extends AppCompatActivity {
                 Log.d(TAG,"Request to set permission");
                 ActivityCompat.requestPermissions(imageuploadActivity.this,
                         new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE},1);
-                }
             }
+        }
         gallery_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -111,4 +107,3 @@ public class imageuploadActivity extends AppCompatActivity {
         }
     }
 }
-

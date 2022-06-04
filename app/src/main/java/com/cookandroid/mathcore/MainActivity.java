@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public  void onClick(View v){
 
-                Intent myIntent = new Intent(MainActivity.this, LoginActivity.class);
+                Intent Intent = new Intent(MainActivity.this, LoginActivity_D.class);
                 //go to login
-                startActivity(myIntent);
+                startActivity(Intent);
                 //finish();
                 //finish main
             }
@@ -33,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
         goto_regist_btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public  void onClick(View v){
-                Intent myIntent = new Intent(MainActivity.this, RegisterActivity.class);
+                Intent Intent = new Intent(MainActivity.this, RegisterActivity.class);
                 //go to reg
-                startActivity(myIntent);
+                startActivity(Intent);
                 //finish();
                 //finish main
             }

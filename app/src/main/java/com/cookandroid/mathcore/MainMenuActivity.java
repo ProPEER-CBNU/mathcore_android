@@ -21,28 +21,33 @@ public class MainMenuActivity extends AppCompatActivity {
             @Override
             public  void onClick(View v){
 
-                Intent myIntent = new Intent(MainMenuActivity.this, imageuploadActivity.class);
+                Intent Intent = new Intent(MainMenuActivity.this, imageuploadActivity.class);
                 //go to imageupload
-                startActivity(myIntent);
+                startActivity(Intent);
             }
         });
 
         goto_selectanssheet.setOnClickListener(new View.OnClickListener(){
             @Override
             public  void onClick(View v){
-                Intent myIntent = new Intent(MainMenuActivity.this, selectanssheetActivity.class);
+                Intent Intent = new Intent(MainMenuActivity.this, selectanssheetActivity.class);
                 //go to ansSheet
-                startActivity(myIntent);
+                startActivity(Intent);
             }
         });
         goto_selectstudent.setOnClickListener(new View.OnClickListener(){
             @Override
             public  void onClick(View v){
-                Intent myIntent = new Intent(MainMenuActivity.this, selectStudentActivity.class);
+                Intent Intent = new Intent(MainMenuActivity.this, selectStudentActivity.class);
                 //go to studentlist
-                startActivity(myIntent);
+                startActivity(Intent);
             }
         });
 
+    }
+
+    //안드로이드 백버튼 차단
+    @Override public void onBackPressed() {
+        return;
     }
 }

@@ -7,11 +7,10 @@
     android:background="#ffffff">
 
     <TableRow
-        android:orientation="horizontal"
-        android:id="@+id/student_btn_01">
+        android:orientation="horizontal">
 
         <TextView
-            android:layout_width="83dp"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:paddingRight="10dp"
             android:paddingBottom="15dp"
@@ -20,16 +19,16 @@
             android:textSize="25dp" />
 
         <TextView
-            android:layout_width="125dp"
+            android:layout_width="104dp"
             android:layout_height="match_parent"
             android:paddingRight="10dp"
             android:paddingBottom="15dp"
-            android:text="가입일자"
+            android:text="학년"
             android:textColor="@color/black"
             android:textSize="25dp" />
 
         <TextView
-            android:layout_width="180dp"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:paddingBottom="15dp"
             android:text="소속"
@@ -43,24 +42,31 @@
         android:background="#ffffff">
 
         <TextView
-            android:id="@+id/name01"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="#DDA0DD"
+            android:layout_height="wrap_content"
+            android:background="#ff7f00"
             android:text="유재석"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#DDA0DD"
-            android:text="22-06-01"
+            android:background="#ff7f00"
+            android:text="고등 1학년"
             android:textSize="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#DDA0DD"
+            android:background="#ff7f00"
             android:text="무한고등학교"
             android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상세정보"
+            android:onClick="mOnPopupClick01"/>
 
     </TableRow>
 
@@ -74,22 +80,30 @@
         <TextView
             android:id="@+id/name02"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="#DDA0DD"
+            android:layout_height="wrap_content"
+            android:background="#ff7f00"
             android:text="강호동"
             android:textSize="20dp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#DDA0DD"
-            android:text="22-06-01"
+            android:background="#ff7f00"
+            android:text="고등 2학년"
             android:textSize="20dp"/>
         <TextView
+            android:id="@+id/txtResult"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#DDA0DD"
+            android:background="#ff7f00"
             android:text="일박고등학교"
             android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="상세정보"
+            android:onClick="mOnPopupClick02" />
 
     </TableRow>
     <TextView

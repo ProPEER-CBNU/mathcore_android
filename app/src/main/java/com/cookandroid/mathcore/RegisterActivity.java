@@ -20,7 +20,7 @@ import org.json.JSONObject;
 public class RegisterActivity extends AppCompatActivity {
 
     private EditText join_email, join_password, join_name, join_pwck;
-    private Button join_button, check_button;
+    private Button join_button, check_button, cancle_button;
     private AlertDialog dialog;
     private boolean validate = false;
 
@@ -64,7 +64,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                             if (success) {
                                 AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
-                                dialog = builder.setMessage("사용할 수 있는 아이디입니다.").setPositiveButton("확인", null).create();
+                                dialog = builder.setMessage("사용할 수 있는 이메일입니다.").setPositiveButton("확인", null).create();
                                 dialog.show();
                                 join_email.setEnabled(false); //아이디값 고정
                                 validate = true; //검증 완료
@@ -72,7 +72,7 @@ public class RegisterActivity extends AppCompatActivity {
                             }
                             else {
                                 AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
-                                dialog = builder.setMessage("이미 존재하는 아이디입니다.").setNegativeButton("확인", null).create();
+                                dialog = builder.setMessage("이미 존재하는 이메일입니다.").setNegativeButton("확인", null).create();
                                 dialog.show();
                             }
                         } catch (JSONException e) {
@@ -102,7 +102,7 @@ public class RegisterActivity extends AppCompatActivity {
                 //아이디 중복체크 했는지 확인
                 if (!validate) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
-                    dialog = builder.setMessage("중복된 아이디가 있는지 확인하세요.").setNegativeButton("확인", null).create();
+                    dialog = builder.setMessage("중복된 이메일이 있는지 확인하세요.").setNegativeButton("확인", null).create();
                     dialog.show();
                     return;
                 }
@@ -110,7 +110,7 @@ public class RegisterActivity extends AppCompatActivity {
                 //한 칸이라도 입력 안했을 경우
                 if (UserEmail.equals("") || UserPwd.equals("") || UserName.equals("")) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
-                    dialog = builder.setMessage("모두 입력해주세요.").setNegativeButton("확인", null).create();
+                    dialog = builder.setMessage("빈칸을 모두 입력해주세요.").setNegativeButton("확인", null).create();
                     dialog.show();
                     return;
                 }
@@ -130,7 +130,7 @@ public class RegisterActivity extends AppCompatActivity {
                                     Toast.makeText(getApplicationContext(), String.format("%s님 가입을 환영합니다.", UserName), Toast.LENGTH_SHORT).show();
                                     Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                                     startActivity(intent);
-
+                                    finish();
                                     //회원가입 실패시
                                 } else {
                                     Toast.makeText(getApplicationContext(), "회원가입에 실패하였습니다.", Toast.LENGTH_SHORT).show();
@@ -156,5 +156,21 @@ public class RegisterActivity extends AppCompatActivity {
                 queue.add( registerRequest );
             }
         });
+
+        cancle_button = findViewById(R.id.delete);
+        cancle_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(RegisterActivity.this, MainActivity.class);
+                startActivity(myIntent);
+                finish();
+            }
+        });
+
+    }
+
+    //안드로이드 백버튼 차단
+    @Override public void onBackPressed() {
+        return;
     }
 }
