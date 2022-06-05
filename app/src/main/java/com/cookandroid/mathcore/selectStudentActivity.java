@@ -13,7 +13,7 @@ public class selectStudentActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_selectstudent);
+        setContentView(R.layout.activity_select_student);
 
         txtResult=(TextView)findViewById(R.id.txtResult);
     }
