@@ -45,6 +45,9 @@ public class selectanssheetActivity extends AppCompatActivity {
                     case R.id.r3_btn:
                         Toast.makeText(getApplicationContext(),"Middle test",Toast.LENGTH_SHORT).show();
                         break;
+                    case R.id.r4_btn:
+                        Toast.makeText(getApplicationContext(),"1-1 다항식의 연산",Toast.LENGTH_SHORT).show();
+                        break;
                 }
             }
         });

@@ -48,11 +48,20 @@
         android:layout_height="wrap_content"
         android:background="#fd8867"
         android:minHeight="48dp"
-        android:text="Middle test           05-18   middlesheet.xlsx"
+        android:text="Middle test            05-18   middlesheet.xlsx"
         android:textSize="20dp" />
 
     <TextView
         android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
+
+    <RadioButton
+        android:id="@+id/r4_btn"
+        android:layout_width="585dp"
+        android:layout_height="wrap_content"
+        android:background="#fd8867"
+        android:minHeight="48dp"
+        android:text="1-1 다항식의 연산  06-05   sample.xlsx"
+        android:textSize="20dp" />
 
 </RadioGroup>
 
