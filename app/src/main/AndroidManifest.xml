@@ -36,6 +36,7 @@
         <activity android:name=".MainMenuActivity"></activity>
         <activity android:name=".LoginActivity_D"></activity>
         <activity android:name=".selectStudentActivity"></activity>
+        <activity android:name=".scoreresultActivity"></activity>
 
         <!--팝업Activity-->
         <activity android:name=".PopupActivity"
