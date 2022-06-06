@@ -8,7 +8,12 @@
     android:backgroundTint="#ffffff"
     android:padding="15dp"
     >
-
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/student_name"
+        android:text="Input Student's Name"
+        android:textSize="20dp"/>
     <Button
         android:id="@+id/gallery_btn"
         android:layout_width="match_parent"
@@ -38,6 +43,7 @@
         android:background="@drawable/btn_color_drawable"
         android:text="Choose workbook"
         android:textSize="20dp" />
+
 
 
 </LinearLayout>
