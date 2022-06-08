@@ -15,6 +15,7 @@
         android:text="Input Student's Name"
         android:textSize="20dp"/>
     <Button
+        style="@style/defaultButton"
         android:id="@+id/gallery_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,6 +24,7 @@
         android:background="@drawable/btn_color_drawable"/>
 
     <Button
+        style="@style/defaultButton"
         android:id="@+id/camera_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,6 +39,7 @@
         android:padding="15dp" />
 
     <Button
+        style="@style/defaultButton"
         android:id="@+id/select_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
