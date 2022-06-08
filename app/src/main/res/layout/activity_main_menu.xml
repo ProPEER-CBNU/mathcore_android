@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/main_image"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginBottom="48dp"
+        android:src="@drawable/mathcorelogo"
+        app:layout_constraintBottom_toTopOf="@+id/goto_imageupload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/goto_imageupload"
+        style="@style/defaultButton"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/btn_color_drawable"
+        android:text="이미지 업로드"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/goto_selectanssheet"
+        app:layout_constraintEnd_toEndOf="@id/main_image" />
+
+    <Button
+        android:id="@+id/goto_selectanssheet"
+        style="@style/defaultButton"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/btn_color_drawable"
+        android:text="답지 관리"
+        app:layout_constraintBottom_toTopOf="@+id/goto_selectstudent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/goto_selectstudent"
+        style="@style/defaultButton"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/btn_color_drawable"
+        android:text="학생 관리"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -61,7 +61,7 @@ public class LoginActivity extends AppCompatActivity {
                                 String UserName = jsonObject.getString( "UserName" );
 
                                 Toast.makeText( getApplicationContext(), String.format("%s님 환영합니다.", UserName), Toast.LENGTH_SHORT ).show();
-                                Intent intent = new Intent( LoginActivity.this, MainActivity.class );
+                                Intent intent = new Intent( LoginActivity.this, MainMenuActivity.class );
 
                                 intent.putExtra( "UserEmail", UserEmail );
                                 intent.putExtra( "UserPwd", UserPwd );
@@ -85,5 +85,10 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    //안드로이드 백버튼 차단
+    @Override public void onBackPressed() {
+        return;
     }
 }

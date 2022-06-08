@@ -21,22 +21,23 @@ public class MainActivity extends AppCompatActivity {
         goto_login_btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public  void onClick(View v){
-                Intent myIntent = new Intent(MainActivity.this, LoginActivity.class);
+
+                Intent Intent = new Intent(MainActivity.this, LoginActivity_D.class);
                 //go to login
-                startActivity(myIntent);
-                finish();
-                //finish mainactivity
+                startActivity(Intent);
+                //finish();
+                //finish main
             }
         });
 
         goto_regist_btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public  void onClick(View v){
-                Intent myIntent = new Intent(MainActivity.this, RegisterActivity.class);
-                //go to regist
-                startActivity(myIntent);
+                Intent Intent = new Intent(MainActivity.this, RegisterActivity.class);
+                //go to reg
+                startActivity(Intent);
                 //finish();
-                //finish mainactivity
+                //finish main
             }
         });
 
