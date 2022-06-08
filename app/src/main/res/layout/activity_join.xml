@@ -31,27 +31,6 @@
         app:layout_constraintBottom_toTopOf="@+id/join_email"
         app:layout_constraintEnd_toEndOf="@+id/check_button" />
 
-    <EditText
-        android:id="@+id/join_password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/join_pwck"
-        app:layout_constraintStart_toStartOf="@+id/join_email" />
-
-    <EditText
-        android:id="@+id/join_pwck"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="267dp"
-        android:ems="10"
-        android:hint="Confirm Password"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/join_password" />
 
     <EditText
         android:id="@+id/join_email"
@@ -79,29 +58,50 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/join_email"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/delete"
-        style="@style/defaultButton"
+
+    <EditText
+        android:id="@+id/join_password"
         android:layout_width="wrap_content"
-        android:layout_height="35dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
-        android:layout_marginTop="71dp"
-        android:text="Cancel"
-        android:background="@drawable/btn_color_drawable"
-        app:layout_constraintStart_toEndOf="@+id/join_button"
-        app:layout_constraintTop_toBottomOf="@+id/join_pwck" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/join_pwck"
+        app:layout_constraintStart_toStartOf="@+id/join_email" />
+
+    <EditText
+        android:id="@+id/join_pwck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="267dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/join_password" />
 
     <Button
         android:id="@+id/join_button"
         style="@style/defaultButton"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:layout_marginLeft="96dp"
         android:text="Sign up"
         android:background="@drawable/btn_color_drawable"
         app:layout_constraintBaseline_toBaselineOf="@+id/delete"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/join_pwck" />
 
+    <Button
+        android:id="@+id/delete"
+        style="@style/defaultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginBottom="160dp"
+        android:text="Cancel"
+        android:background="@drawable/btn_color_drawable"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/join_pwck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
