@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/student_name"
-        android:text="Input Student's Name"
+        android:hint="Input Student's Name"
         android:textSize="20dp"/>
     <Button
         style="@style/defaultButton"
