@@ -6,7 +6,7 @@
     android:padding="15dp"
     android:background="#ffffff"
     >
-
+    <TableRow>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -56,8 +56,7 @@
             android:background="#DDA0DD"
             android:text="anssheet.xlsx"
             android:textSize="20dp" />
-    
-</TableRow>
+    </TableRow>
 
     <TextView
         android:layout_width="626dp"
@@ -70,52 +69,51 @@
 
 
 
-<RadioGroup
-    android:id="@+id/radioG"
-     android:layout_height="wrap_content"
-    android:layout_width="wrap_content">
-    <RadioButton
-        android:id="@+id/r1_btn"
-        android:layout_width="600dp"
-        android:layout_height="match_parent"
-        android:background="#fd8867"
-        android:minHeight="48dp"
-        android:text="Math note 1-1      12-13    anssheet.xlsx"
-        android:textSize="20dp" />
-    <TextView
-        android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
-    <RadioButton
-        android:id="@+id/r2_btn"
-        android:layout_width="501dp"
+    <RadioGroup
+        android:id="@+id/radioG"
         android:layout_height="wrap_content"
-        android:background="#fd8867"
-        android:minHeight="48dp"
-        android:text="Ssen elementry    10-21   SsenSheet.xlsx"
-        android:textSize="20dp" />
-    <TextView
+        android:layout_width="wrap_content">
+        <RadioButton
+            android:id="@+id/r1_btn"
+            android:layout_width="600dp"
+            android:layout_height="match_parent"
+            android:background="#fd8867"
+            android:minHeight="48dp"
+            android:text="Math note 1-1      12-13    anssheet.xlsx"
+            android:textSize="20dp" />
+        <TextView
+            android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
+        <RadioButton
+            android:id="@+id/r2_btn"
+            android:layout_width="501dp"
+            android:layout_height="wrap_content"
+            android:background="#fd8867"
+            android:minHeight="48dp"
+            android:text="Ssen elementry    10-21   SsenSheet.xlsx"
+            android:textSize="20dp" />
+        <TextView
+            android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
+        <RadioButton
+            android:id="@+id/r3_btn"
+            android:layout_width="585dp"
+            android:layout_height="wrap_content"
+            android:background="#fd8867"
+            android:minHeight="48dp"
+            android:text="Middle test            05-18   middlesheet.xlsx"
+            android:textSize="20dp" />
+
+        <TextView
         android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
-    <RadioButton
-        android:id="@+id/r3_btn"
-        android:layout_width="585dp"
-        android:layout_height="wrap_content"
-        android:background="#fd8867"
-        android:minHeight="48dp"
-        android:text="Middle test            05-18   middlesheet.xlsx"
-        android:textSize="20dp" />
 
-    <TextView
-        android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
-
-    <RadioButton
-        android:id="@+id/r4_btn"
-        android:layout_width="585dp"
-        android:layout_height="wrap_content"
-        android:background="#fd8867"
-        android:minHeight="48dp"
-        android:text="1-1 다항식의 연산  06-05   sample.xlsx"
-        android:textSize="20dp" />
-
-</RadioGroup>
+        <RadioButton
+            android:id="@+id/r4_btn"
+            android:layout_width="585dp"
+            android:layout_height="wrap_content"
+            android:background="#fd8867"
+            android:minHeight="48dp"
+            android:text="1-1 다항식의 연산  06-05   sample.xlsx"
+            android:textSize="20dp" />
+    </RadioGroup>
 
     <TextView
         android:textSize="10dp" android:layout_height="wrap_content" android:layout_width="match_parent"/>
@@ -128,5 +126,4 @@
         android:layout_gravity="center"
         android:background="@drawable/btn_color_drawable"
         />
-
 </LinearLayout>
