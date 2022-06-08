@@ -65,7 +65,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="Alice"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -75,7 +74,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="8"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -85,7 +83,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="2"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -95,7 +92,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="1"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -108,7 +104,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="Peter"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -118,7 +113,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="8"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -128,7 +122,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="2"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -138,7 +131,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="1"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -151,7 +143,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="Harry"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -161,7 +152,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="8"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -171,7 +161,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="2"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -181,7 +170,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="1"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -194,7 +182,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="Totoro"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -204,7 +191,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="8"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -214,7 +200,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="2"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -224,7 +209,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="1"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -237,7 +221,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="Vaseline"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -247,7 +230,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="8"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -257,7 +239,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="2"
                 android:gravity="center"
                 android:textColor="@color/black"
@@ -267,7 +248,6 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:paddingLeft="10dp"
                 android:text="1"
                 android:gravity="center"
                 android:textColor="@color/black"

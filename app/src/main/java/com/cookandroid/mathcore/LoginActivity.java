@@ -19,7 +19,7 @@ import org.json.JSONObject;
 public class LoginActivity extends AppCompatActivity {
 
     private EditText login_email, login_password;
-    private Button login_button, join_button;
+    private Button login_button, cancle_button;
 
 
     @Override
@@ -30,8 +30,8 @@ public class LoginActivity extends AppCompatActivity {
         login_email = findViewById( R.id.login_email );
         login_password = findViewById( R.id.login_password );
 
-        join_button = findViewById( R.id.join_button );
-        join_button.setOnClickListener( new View.OnClickListener() {
+        cancle_button = findViewById( R.id.cancle_button);
+        cancle_button.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent( LoginActivity.this, MainActivity.class );

@@ -7,6 +7,58 @@
     android:background="#ffffff"
     >
 
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:text="AnsSheetName"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:text="Date"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="FileName"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DDA0DD"
+            android:text="Math note 1-1"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DDA0DD"
+            android:text="22-00-55"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DDA0DD"
+            android:text="anssheet.xlsx"
+            android:textSize="20dp" />
+    </TableRow>
+
     <TextView
         android:layout_width="626dp"
         android:layout_height="wrap_content"
@@ -71,5 +123,4 @@
         android:layout_gravity="center"
         android:background="@drawable/btn_color_drawable"
         />
-
 </LinearLayout>
