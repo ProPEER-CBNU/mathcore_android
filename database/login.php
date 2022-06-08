@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect("localhost", "ftp아이디", "ftp비번", "ftp아이디");
+    $con = mysqli_connect("localhost", "mistyc", "l92xfd1!", "mistyc");
     mysqli_query($con,'SET NAMES utf8');
  
     $UserEmail = $_POST["UserEmail"];

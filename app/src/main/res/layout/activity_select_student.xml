@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="#ffffff">
+
+    <TableRow
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:text="이름"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:text="학년"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="소속"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff7f00"
+            android:text="유재석"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff7f00"
+            android:text="고등 1학년"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff7f00"
+            android:text="무한고등학교"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상세정보"
+            android:onClick="mOnPopupClick01"/>
+
+    </TableRow>
+
+    <TextView
+        android:textSize="10dp"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/name02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff7f00"
+            android:text="강호동"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff7f00"
+            android:text="고등 2학년"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff7f00"
+            android:text="일박고등학교"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="상세정보"
+            android:onClick="mOnPopupClick02" />
+
+    </TableRow>
+    <TextView
+        android:textSize="10dp"/>
+
+
+</TableLayout>

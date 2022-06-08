@@ -46,8 +46,8 @@ public class imageuploadActivity extends AppCompatActivity {
                 Log.d(TAG,"Request to set permission");
                 ActivityCompat.requestPermissions(imageuploadActivity.this,
                         new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE},1);
-                }
             }
+        }
         gallery_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -107,4 +107,3 @@ public class imageuploadActivity extends AppCompatActivity {
         }
     }
 }
-
