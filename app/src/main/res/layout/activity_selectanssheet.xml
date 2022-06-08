@@ -6,6 +6,7 @@
     android:padding="15dp"
     android:background="#ffffff"
     >
+  
     <TableRow>
         <TextView
             android:layout_width="wrap_content"
@@ -103,7 +104,7 @@
             android:textSize="20dp" />
 
         <TextView
-        android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
+            android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
 
         <RadioButton
             android:id="@+id/r4_btn"
@@ -113,6 +114,7 @@
             android:minHeight="48dp"
             android:text="1-1 다항식의 연산  06-05   sample.xlsx"
             android:textSize="20dp" />
+
     </RadioGroup>
 
     <TextView
