@@ -6,7 +6,7 @@
     android:padding="15dp"
     android:background="#ffffff"
     >
-  
+
     <TableRow>
         <TextView
             android:layout_width="wrap_content"
