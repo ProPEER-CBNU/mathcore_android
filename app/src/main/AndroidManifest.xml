@@ -38,6 +38,7 @@
         <activity android:name=".selectStudentActivity"></activity>
         <activity android:name=".scoreresultActivity"></activity>
 
+
         <!--팝업Activity-->
         <activity android:name=".PopupActivity"
             android:theme="@android:style/Theme.Dialog"/>
