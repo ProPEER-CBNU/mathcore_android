@@ -133,6 +133,116 @@
 
         </TableRow>
 
-    </TableLayout>
+        <TableRow
+            android:layout_marginTop="0dp">
 
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:text="신동엽"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:text="고등2학년"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:text="동물고등학교"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <Button
+                android:id="@+id/button03"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="상세정보"
+                android:onClick="mOnPopupClick03" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:text="이경규"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:text="고등3학년"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:text="양심고등학교"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <Button
+                android:id="@+id/button04"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="상세정보"
+                android:onClick="mOnPopupClick04" />
+
+        </TableRow>
+    <TableRow
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:background="@drawable/table_color_drawable"
+            android:text="이효리"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+        <TextView
+            android:background="@drawable/table_color_drawable"
+            android:text="고등1학년"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:background="@drawable/table_color_drawable"
+            android:text="핑클고등학교"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button05"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="상세정보"
+            android:onClick="mOnPopupClick05" />
+
+    </TableRow>
+
+
+    </TableLayout>
 </LinearLayout>
