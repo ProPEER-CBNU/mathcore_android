@@ -27,7 +27,7 @@
         android:layout_marginEnd="136dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/btn_color_drawable"
-        android:text="이미지 업로드"
+        android:text="image upload"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/goto_selectanssheet"
         app:layout_constraintEnd_toEndOf="@id/main_image" />
@@ -40,7 +40,7 @@
         android:layout_marginEnd="140dp"
         android:layout_marginBottom="36dp"
         android:background="@drawable/btn_color_drawable"
-        android:text="답지 관리"
+        android:text="manage\nAns sheet"
         app:layout_constraintBottom_toTopOf="@+id/goto_selectstudent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -52,7 +52,7 @@
         android:layout_marginEnd="140dp"
         android:layout_marginBottom="192dp"
         android:background="@drawable/btn_color_drawable"
-        android:text="학생 관리"
+        android:text="Mangage\nStudent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
