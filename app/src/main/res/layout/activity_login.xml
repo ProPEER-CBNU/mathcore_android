@@ -14,7 +14,7 @@
         android:layout_height="35dp"
         android:text="Sign In"
         android:background="@drawable/btn_color_drawable"
-        app:layout_constraintBaseline_toBaselineOf="@+id/join_button"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cancle_button"
         app:layout_constraintStart_toStartOf="@+id/login_password" />
 
     <EditText
@@ -52,7 +52,7 @@
 
 
     <Button
-        android:id="@+id/join_button"
+        android:id="@+id/cancle_button"
         style="@style/defaultButton"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
