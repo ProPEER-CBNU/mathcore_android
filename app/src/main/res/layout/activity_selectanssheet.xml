@@ -15,7 +15,7 @@
             android:paddingRight="10dp"
             android:paddingBottom="15dp"
             android:text="AnsSheetName"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:textColor="@color/black"/>
 
         <TextView
@@ -24,7 +24,7 @@
             android:paddingRight="10dp"
             android:paddingBottom="15dp"
             android:text="Date"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:textColor="@color/black"/>
 
         <TextView
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="15dp"
             android:text="FileName"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:textColor="@color/black"/>
     </TableRow>
 
