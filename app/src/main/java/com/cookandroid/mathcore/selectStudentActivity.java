@@ -15,7 +15,6 @@ public class selectStudentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_student);
 
-        txtResult=(TextView)findViewById(R.id.txtResult);
     }
 
     public void mOnPopupClick01(View v){
