@@ -1,212 +1,297 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="15dp">
 
     <TableLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="15dp">
-        
+        android:gravity="center">
+
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="380dp"
+            android:layout_height="30dp">
+
             <TextView
+                android:layout_width="95dp"
+                android:background="@color/pink_mc"
+                android:gravity="center"
                 android:text="Student"
+                android:textColor="@color/white"
                 android:textSize="20dp"
-                android:paddingRight="8dp"
-                android:textColor="@color/black"
-                />
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
 
             <TextView
+                android:layout_width="95dp"
+                android:background="@color/pink_mc"
+                android:gravity="center"
+                android:text="Correct"
+                android:textColor="@color/white"
                 android:textSize="20dp"
-                android:textColor="@color/black"
-                android:text="CorrectAns"
-                android:paddingRight="8dp"
-                android:paddingBottom="10dp"
-                />
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
             <TextView
+                android:layout_width="95dp"
+                android:background="@color/pink_mc"
+                android:gravity="center"
+                android:text="Wrong"
+                android:textColor="@color/white"
                 android:textSize="20dp"
-                android:textColor="@color/black"
-                android:text="WrongAns"
-                android:paddingRight="8dp"
-                />
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
             <TextView
-                android:textSize="20dp"
-                android:textColor="@color/black"
+                android:layout_width="95dp"
+                android:background="@color/pink_mc"
+                android:gravity="center"
                 android:text="NoRecog"
-                />
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
         </TableRow>
+
         <TableRow>
+
             <TextView
-                android:textSize="18dp"
-                android:background="#fd8867"
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="Alice"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="8"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="2"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
-                android:text="1"
-                android:textColor="@color/white"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
                 android:paddingLeft="10dp"
-                />
+                android:text="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
         </TableRow>
 
         <TableRow>
+
             <TextView
-                android:textSize="18dp"
-                android:background="#fd8867"
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="Peter"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="8"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="2"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
-                android:text="1"
-                android:textColor="@color/white"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
                 android:paddingLeft="10dp"
-                />
+                android:text="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
         </TableRow>
 
         <TableRow>
+
             <TextView
-                android:textSize="18dp"
-                android:background="#fd8867"
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="Harry"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="8"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="2"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
-                android:text="1"
-                android:textColor="@color/white"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
                 android:paddingLeft="10dp"
-                />
+                android:text="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
         </TableRow>
 
         <TableRow>
+
             <TextView
-                android:textSize="18dp"
-                android:background="#fd8867"
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="Totoro"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="8"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="2"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
-                android:text="1"
-                android:textColor="@color/white"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
                 android:paddingLeft="10dp"
-                />
+                android:text="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
         </TableRow>
 
         <TableRow>
+
             <TextView
-                android:textSize="18dp"
-                android:background="#fd8867"
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="Vaseline"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="8"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:paddingLeft="10dp"
                 android:text="2"
-                android:textColor="@color/white"
-                android:paddingLeft="10dp"
-                />
-            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="18dp"
-                android:background="#fd8867"
-                android:text="1"
-                android:textColor="@color/white"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
                 android:paddingLeft="10dp"
-                />
+                android:text="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
         </TableRow>
 
-        <Button
-            style="@style/defaultButton"
-            android:textSize="20dp"
-            android:text="Back to First Screen"
-            android:background="@drawable/btn_color_drawable"
-            android:id="@+id/goback_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            />
     </TableLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
 
+        <Button
+            android:id="@+id/goback_btn"
+            style="@style/defaultButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_color_drawable"
+            android:text="Back to First Screen"
+            android:textSize="20dp" />
+
+    </LinearLayout>
 
 </LinearLayout>

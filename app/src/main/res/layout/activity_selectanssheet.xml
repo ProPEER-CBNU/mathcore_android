@@ -30,8 +30,7 @@
             android:minHeight="48dp"
             android:text="Math note 1-1      12-13    anssheet.xlsx"
             android:textSize="20dp" />
-        <TextView
-            android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
+
         <RadioButton
             android:id="@+id/r2_btn"
             android:layout_width="501dp"
@@ -40,8 +39,7 @@
             android:minHeight="48dp"
             android:text="Ssen elementry    10-21   SsenSheet.xlsx"
             android:textSize="20dp" />
-        <TextView
-            android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
+
         <RadioButton
             android:id="@+id/r3_btn"
             android:layout_width="585dp"
@@ -50,9 +48,6 @@
             android:minHeight="48dp"
             android:text="Middle test            05-18   middlesheet.xlsx"
             android:textSize="20dp" />
-
-        <TextView
-            android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
 
         <RadioButton
             android:id="@+id/r4_btn"
