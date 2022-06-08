@@ -34,7 +34,6 @@
         <activity android:name=".selectanssheetActivity"></activity>
         <activity android:name=".imageuploadActivity"></activity>
         <activity android:name=".MainMenuActivity"></activity>
-        <activity android:name=".LoginActivity_D"></activity>
         <activity android:name=".selectStudentActivity"></activity>
         <activity android:name=".scoreresultActivity"></activity>
 
