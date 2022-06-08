@@ -15,7 +15,7 @@
             android:text="학생정보"
             android:textSize="20sp"
             android:gravity="center"
-            android:background="#FF7A00"></TextView>
+            android:background="@color/pink_mc"></TextView>
     </LinearLayout>
 
     <LinearLayout
@@ -51,7 +51,7 @@
             android:layout_height="53dp"
             android:text="확인"
             android:textSize="15sp"
-            android:textColor="#ff7a00"
+            android:textColor="@color/pink_mc"
             android:gravity="center"
             android:background="#00000000"
             android:onClick="mOnClose"></Button>
