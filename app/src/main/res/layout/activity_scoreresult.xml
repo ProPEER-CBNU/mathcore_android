@@ -230,16 +230,7 @@
 
             <TextView
                 android:background="@drawable/table_color_drawable"
-                android:text="8"
-                android:gravity="center"
-                android:textColor="@color/black"
-                android:textSize="18dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"/>
-
-            <TextView
-                android:background="@drawable/table_color_drawable"
-                android:text="2"
+                android:text="7"
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:textSize="18dp"
@@ -249,6 +240,15 @@
             <TextView
                 android:background="@drawable/table_color_drawable"
                 android:text="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:background="@drawable/table_color_drawable"
+                android:text="0"
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:textSize="18dp"
