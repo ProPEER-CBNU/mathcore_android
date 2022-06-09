@@ -1,131 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp"
-    android:background="#ffffff"
     >
+    <TableRow
+    android:layout_width="380dp"
+    android:layout_height="wrap_content">
 
-    <TableRow>
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingRight="10dp"
-            android:paddingBottom="15dp"
-            android:text="AnsSheetName"
+            android:layout_width="170dp"
+            android:background="@color/pink_mc"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="AnsSheet"
+            android:textColor="#ffffff"
             android:textSize="20dp"
-            android:textColor="@color/black"/>
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck,TextContrastCheck" />
 
         <TextView
-            android:layout_width="92dp"
-            android:layout_height="match_parent"
-            android:paddingRight="10dp"
-            android:paddingBottom="15dp"
+            android:layout_width="60dp"
+            android:background="@color/pink_mc"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:text="Date"
+            android:textColor="@color/white"
             android:textSize="20dp"
-            android:textColor="@color/black"/>
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
 
         <TextView
-            android:layout_width="98dp"
-            android:layout_height="wrap_content"
-            android:paddingBottom="15dp"
+            android:layout_width="150dp"
+            android:background="@color/pink_mc"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:text="FileName"
+            android:textColor="@color/white"
             android:textSize="20dp"
-            android:textColor="@color/black"/>
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/r1_btn"
+            android:layout_width="170dp"
+            android:background="@drawable/table_color_drawable"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Mathcore 1-1"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            tools:ignore="TouchTargetSizeCheck"
+            />
+        <TextView
+            android:layout_width="60dp"
+            android:background="@drawable/table_color_drawable"
+            android:text="05-18"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:layout_width="150dp"
+            android:background="@drawable/table_color_drawable"
+            android:text="Mathcore.xlsx"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="380dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/r2_btn"
+            android:layout_width="170dp"
+            android:background="@drawable/table_color_drawable"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Ssen elementry"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            tools:ignore="TouchTargetSizeCheck" />
+        <TextView
+            android:layout_width="60dp"
+            android:background="@drawable/table_color_drawable"
+            android:text="10-21"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:background="@drawable/table_color_drawable"
+            android:text="SsenSheet.xlsx"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
     </TableRow>
 
     <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#DDA0DD"
-            android:text="Math note 1-1"
-            android:textSize="20dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#DDA0DD"
-            android:text="22-00-55"
-            android:textSize="20dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#DDA0DD"
-            android:text="anssheet.xlsx"
-            android:textSize="20dp" />
-    </TableRow>
-
-    <TextView
-        android:layout_width="626dp"
+        android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:paddingRight="10dp"
-        android:paddingBottom="15dp"
-        android:text="AnsSheetName  Date FileName"
-        android:textColor="@color/black"
-        android:textSize="25dp" />
+        >
 
-
-
-    <RadioGroup
-        android:id="@+id/radioG"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content">
-        <RadioButton
-            android:id="@+id/r1_btn"
-            android:layout_width="600dp"
-            android:layout_height="match_parent"
-            android:background="#fd8867"
-            android:minHeight="48dp"
-            android:text="Math note 1-1      12-13    anssheet.xlsx"
-            android:textSize="20dp" />
         <TextView
-            android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
-        <RadioButton
-            android:id="@+id/r2_btn"
-            android:layout_width="501dp"
-            android:layout_height="wrap_content"
-            android:background="#fd8867"
-            android:minHeight="48dp"
-            android:text="Ssen elementry    10-21   SsenSheet.xlsx"
-            android:textSize="20dp" />
-        <TextView
-            android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
-        <RadioButton
             android:id="@+id/r3_btn"
-            android:layout_width="585dp"
-            android:layout_height="wrap_content"
-            android:background="#fd8867"
-            android:minHeight="48dp"
-            android:text="Middle test            05-18   middlesheet.xlsx"
-            android:textSize="20dp" />
-
+            android:layout_width="170dp"
+            android:background="@drawable/table_color_drawable"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Middle test"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            tools:ignore="TouchTargetSizeCheck" />
         <TextView
-            android:textSize="10dp" android:layout_height="10dp" android:layout_width="match_parent"/>
+            android:background="@drawable/table_color_drawable"
+            android:text="04-17"
+            android:layout_width="60dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:background="@drawable/table_color_drawable"
+            android:text="middlesheet.xlsx"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
 
-        <RadioButton
-            android:id="@+id/r4_btn"
-            android:layout_width="585dp"
-            android:layout_height="wrap_content"
-            android:background="#fd8867"
-            android:minHeight="48dp"
-            android:text="1-1 다항식의 연산  06-05   sample.xlsx"
-            android:textSize="20dp" />
+    </TableRow>
+   <TableRow
+       android:layout_width="380dp"
+       android:layout_height="wrap_content"
+       >
 
-    </RadioGroup>
+       <TextView
+           android:id="@+id/r4_btn"
+           android:layout_width="170dp"
+           android:background="@drawable/table_color_drawable"
+           android:gravity="center"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:text="1-1 다항식의 연산"
+           android:textColor="@color/black"
+           android:textSize="18dp"
+           tools:ignore="TouchTargetSizeCheck" />
+       <TextView
+           android:background="@drawable/table_color_drawable"
+           android:text="06-05"
+           android:layout_width="60dp"
+           android:gravity="center"
+           android:textColor="@color/black"
+           android:textSize="18dp"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"/>
+       <TextView
+           android:background="@drawable/table_color_drawable"
+           android:text="sample.xlsx"
+           android:gravity="center"
+           android:textColor="@color/black"
+           android:textSize="18dp"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"/>
+   </TableRow>
 
     <TextView
         android:textSize="10dp" android:layout_height="wrap_content" android:layout_width="match_parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected WorkBookName"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/textv"
+        />
+    <TextView
+        android:textSize="10dp" android:layout_height="wrap_content" android:layout_width="match_parent"/>
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:id="@+id/Scoring_btn"
         android:text="Scoring"
         android:textSize="20dp"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         android:background="@drawable/btn_color_drawable"
         />
+
 </LinearLayout>
